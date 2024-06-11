@@ -9,37 +9,37 @@
 <body>
   <p>
     <?php
-      class Food{
+      class Food {
         private $name;
         private $price;
         
         // コンストラクタ定義
-        public function __construct(string $name, int $price){
+        public function __construct(string $name, int $price) {
           $this->name = $name;
           $this->price = $price;
         }
 
         // メソッド定義
-        public function show_price(){
+        public function show_price() {
           echo $this->price .'<br>';
         }
       }
 
-      class Animal{
+      class Animal {
         private $name;
         private $height;
         private $weight;
 
         // コンストラクタ定義
-        public function __construct(string $name, int $height, int $weight){
+        public function __construct(string $name, int $height, int $weight) {
           $this->name = $name;
           $this->height = $height;
           $this->weight  = $weight;
         }
 
         // メソッド定義
-        public function show_height(){
-          echo $this->name .'<br>';
+        public function show_height() {
+          echo $this->height .'<br>';
         }
       }
 
